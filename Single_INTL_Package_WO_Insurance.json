@@ -1,0 +1,100 @@
+{
+	"shipment": {
+		"ship_from": {
+			"country_iso3": "HKG",
+			"zip": "",
+			"state": "",
+			"city": "HK",
+			"address_line1": "Unit 1, 41/F, One Midtown",
+			"address_line2": "11 Hoi Shing Road, Tsuen Wan",
+			"address_line3": null,
+			"company_name": "Fever Toys Ltd.",
+			"email": "foo@bar.com",
+			"contact_phone": "27452882",
+			"contact_name": "Crystal Chan",
+			"fax_number": "123-45678-90",
+			"type": "commercial",
+			"gst_vat": null
+		},
+		"ship_to": {
+			"gst_vat": null,
+			"type": "residential",
+			"contact_name": "Tim Cook",
+			"contact_phone": "800-908-988",
+			"fax_number": "987-6543221",
+			"email": "hello@world.com",
+			"company_name": null,
+			"address_line1": "1 Infinite Loop",
+			"address_line2": null,
+			"address_line3": null,
+			"city": "Cupertino",
+			"state": "CA",
+			"zip": "95014",
+			"country_iso3": "USA"
+		},
+		"packages": [
+			{
+				"description": null,
+				"type": null,
+				"handling": null,
+				"box": {
+					"type": "custom",
+					"name": null,
+					"weight": 1,
+					"weight_unit": "kg",
+					"depth": 10,
+					"height": 10,
+					"width": 10,
+					"dimension_unit": "cm"
+				},
+				"items": [
+					{
+						"sku": "SAMPLE",
+						"name": "PS3 Game Console",
+						"hs_code": null,
+						"barcode": null,
+						"origin_country_iso3": "USA",
+						"quantity": 1,
+						"value": 300,
+						"currency": "USD",
+						"weight": 2,
+						"weight_unit": "kg"
+					}
+				]
+			}
+		]
+	},
+	"ship_date": "2014-10-13T17:00:00-04:00",
+	"shipper_account": {
+		"account_number": "REPLACE_ACCOUNT_NUMBER",
+		"slug": "YOUR SLUG",
+		"setting": {
+
+		}
+	},
+	"billing": {
+		"type": "shipper",
+		"payment_detail": {
+			"account_number": "1234567"
+		}
+	},
+	"customs": {
+		"duty_tax_payable": {
+			"type": "credit_card",
+			"payment_detail": {
+				"card_name": "Teddyd Chan",
+				"card_number": "1234567654345676543",
+				"card_month": "2014-09",
+				"card_cvv": "234"
+			}
+		},
+		"declared_value": "12345",
+		"declured_currency": "USD",
+		"type": "merchandise",
+		"packages_description": "RC toys x 123456789876543234567898765432",
+		"origin_country_iso3": "ISO3",
+		"export_type": "permanet",
+		"eel_pfc": null,
+		"eccn": null
+	}
+}
